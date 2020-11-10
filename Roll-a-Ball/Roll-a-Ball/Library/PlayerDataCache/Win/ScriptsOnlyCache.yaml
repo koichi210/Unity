@@ -19,6 +19,12 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/stage01.unity:
     - Class: 1
@@ -52,22 +58,42 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11288}
+    - Class: 114
+      Script: {instanceID: 11458}
+    - Class: 114
       Script: {instanceID: 11692}
     - Class: 114
       Script: {instanceID: 11696}
     - Class: 114
       Script: {instanceID: 11698}
     - Class: 114
+      Script: {instanceID: 11920}
+    - Class: 114
       Script: {instanceID: 12088}
     - Class: 114
       Script: {instanceID: 12090}
+    - Class: 114
+      Script: {instanceID: 12822}
+    - Class: 114
+      Script: {instanceID: 13182}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
     - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -631,4 +657,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/stage01.unity
-  playerPath: D:/GitHub/Unity/Roll-a-Ball/Roll-a-Ball/Roll-a-Ball.exe
+  playerPath: D:/GitHub/Unity/Roll-a-Ball/Roll-a-Ball/Exe/Roll-a-Ball.exe
